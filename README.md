@@ -1,8 +1,19 @@
-<<<<<<< HEAD
-This implementation of 「Unsupervised Deep Embedding for Clustering Analysis」in tensorflow.
-The paper is https://ai2-website.s3.amazonaws.com/publications/unsupervised-deep-embedding.pdf.
+Implementation of DEC
+====
 
+Overview
+Implementation of 「Unsupervised Deep Embedding for Clustering Analysis」in tensorflow.
+The paper is https://ai2-website.s3.amazonaws.com/publications/unsupervised-deep-embedding.pdf. Our implementation is different from original one.
+## Description
 We simply implemented the method for MNIST. We do not pretrain the model from Stacked AE. We jointly optimize the objective of the AE and clustering.
+
+##Usage
+======
+python mnist_dec.py 
+
+## Requirement
+*python-2.7
+*tensorflow-0.11.0
 =======
-# DecCluster
->>>>>>> dea0a8b7929aaaa80867e648d929d1dd9ec15f2c
+
+
